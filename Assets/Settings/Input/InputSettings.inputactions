@@ -1,0 +1,56 @@
+{
+    "name": "InputSettings",
+    "maps": [
+        {
+            "name": "Play",
+            "id": "1c5ed5f5-d87b-4104-8269-35bbd312ff1c",
+            "actions": [
+                {
+                    "name": "Rotate Camera",
+                    "type": "Value",
+                    "id": "c81a22d8-aee5-4bac-8900-4c20f1e2931f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "a09dea41-d6f0-4b2f-9d46-520544a767ec",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Camera",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "295e65aa-12b8-4a26-962b-c3b57eab4595",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "25edae36-675d-47b9-b04e-171f8f6df11b",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
