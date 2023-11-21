@@ -6,16 +6,78 @@
             "id": "1c5ed5f5-d87b-4104-8269-35bbd312ff1c",
             "actions": [
                 {
-                    "name": "Rotate Camera",
-                    "type": "Value",
-                    "id": "c81a22d8-aee5-4bac-8900-4c20f1e2931f",
+                    "name": "Throw",
+                    "type": "Button",
+                    "id": "90944026-f053-43f8-a769-7daaf9f228dd",
                     "expectedControlType": "Button",
                     "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "17889d66-5ef6-4455-8993-0d4e9ff4cff0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "c81a22d8-aee5-4bac-8900-4c20f1e2931f",
+                    "expectedControlType": "Axis",
+                    "processors": "Invert",
                     "interactions": "",
                     "initialStateCheck": true
                 }
             ],
             "bindings": [
+                {
+                    "name": "",
+                    "id": "10fe577f-bed2-4afb-87ee-3314a5476d2f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "73080ce6-b9ae-4084-b968-2a9d0e42d684",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "804cb59a-78f1-43fb-a106-193eed087f7f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2889b572-e736-48f7-abcd-5411246f93e2",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
                 {
                     "name": "1D Axis",
                     "id": "a09dea41-d6f0-4b2f-9d46-520544a767ec",
@@ -23,7 +85,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Rotate Camera",
+                    "action": "Rotate",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -34,7 +96,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Rotate Camera",
+                    "action": "Rotate",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -45,7 +107,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Rotate Camera",
+                    "action": "Rotate",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }

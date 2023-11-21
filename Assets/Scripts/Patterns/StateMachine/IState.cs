@@ -1,4 +1,4 @@
-namespace Monologist.Patterns.State
+namespace Patterns.StateMachine
 {
     public interface IState
     {

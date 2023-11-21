@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Monologist.Patterns.State
+namespace Patterns.StateMachine
 {
     public abstract class StateMachine
     {

@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Monologist.Patterns.Singleton
+namespace Patterns.Singleton
 {
     public class Singleton<T> : MonoBehaviour where T : Singleton<T>, new()
     {
