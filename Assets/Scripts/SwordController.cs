@@ -15,11 +15,12 @@ public class SwordController : MonoBehaviour
     public float TargetAngle;
 
     #endregion
+    
     public void ThrowBall()
     {
         if (BallCaught == null) return;
         BallCaught.isKinematic = false;
-        BallCaught.velocity = _emitVelocity;
+        BallCaught.velocity = _emitVelocity + 0.4f*moveSpeed * MoveDirection;
         BallCaught = null;
     }
 
