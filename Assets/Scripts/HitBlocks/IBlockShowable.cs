@@ -1,8 +1,8 @@
-namespace HitBlocks
+namespace HitBlockLevels
 {
     public interface IBlockShowable
     {
-        public void ShowBlock(){}
-        public void HideBlock(){}
+        public void EaseIn() { }
+        public void EaseOut() { }
     }
 }

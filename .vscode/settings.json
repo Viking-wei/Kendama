@@ -1,0 +1,33 @@
+{
+    "dotnet.preferCSharpExtension": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.meta": true,
+        "**/Library": true,
+        "**/obj": true,
+        "**/Logs": true,
+        "**/Temp": true,
+        "**/Recordings": true,
+        "**/UserSettings": true,
+        "**/ProjectSettings": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/*.meta": true,
+        "**/Library": true,
+        "**/obj": true,
+        "**/Logs": true,
+        "**/Temp": true,
+        "**/Recordings": true,
+        "**/UserSettings": true,
+        "**/ProjectSettings": true
+    },
+    "dotnet.defaultSolution": "Kendama.sln"
+}
