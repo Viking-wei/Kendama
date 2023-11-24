@@ -189,6 +189,11 @@ namespace HitBlockLevels.Editor
         private void OnDisable()
         {
             DestroyImmediate(_goInEdit);
+            foreach (var go in _goAtCurrentBeat)
+            {
+                DestroyImmediate(go);
+            }
+            _goAtCurrentBeat.Clear();
         }
     }
 }
